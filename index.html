@@ -25,7 +25,7 @@
 									<img
 										class="header-logo-image"
 										src="./src/images/logo.png"
-										width="50px"
+										width="130px"
 										alt="Logo"
 									/>
 								</a>
@@ -102,7 +102,7 @@
 											Manage your equipments
 										</h4>
 										<p class="text-sm mb-0">
-											For companies that provide their equipments for rent are not left behind, You will have the power to manage all your rented equipment in the palm of your hand.
+											For companies that provide their equipments for rent are not left behind, You will have the power to manage & track all your rented equipment in the palm of your hand.
 										</p>
 									</div>
 								</div>
@@ -119,7 +119,7 @@
 											Be Productive
 										</h4>
 										<p class="text-sm mb-0">
-											All we want is to see you finish your project faster and with a little amount of effort spent, We want you to focus on your project and leave the dirty work for us.
+											All we want is to see you finish your project faster and with a little amount of effort spent, We want you to focus on your project and leave the dirty work to us.
 										</p>
 									</div>
 								</div>
@@ -224,7 +224,7 @@
 											>
 												<li>
 													<span
-														>Showcasing your equipments to potential clients</span
+														>Showcase your equipments to clients</span
 													>
 												</li>
 												<li>
@@ -273,12 +273,13 @@
 						<div class="col-12 pb-2"><p>Subscribe to our website to be always updated on on-going projects</p></div>
 						<div class="col">								
 							<div class="row">
-								<div class="col-9"><div class="w-100"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></div></div>
-								<div class="col w-25"><a
-									class="button button-primary button-wide-mobile"
-									href="#"
-									>Subscribe now!</a
-								></div>
+								<div class="col-sm-8 col-xs-10"><div><input type="email" class="form-control" id="input" placeholder="name@example.com"></div></div>
+								<div class="col-sm-3 col-xs-2 button button-primary " id="btn">
+									<div class="">
+										<p><span id="text">Subscribe now! </span> <span id="spin" style="display: none" class="spinner-border spinner-border-sm text-warning"></span></p>
+									</div>
+									
+								</div>
 							</div>
 						</div>
 					</div>
@@ -295,7 +296,7 @@
 								<img
 										class="header-logo-image"
 										src="./src/images/logo.png"
-										width="50px"
+										width="69"
 										alt="Logo"
 									/>
 							</a>
@@ -350,20 +351,19 @@
 								</a>
 							</li>
 							<li>
-								<a href="heavyrwanda@gmail.com">
+								<a href="https://www.instagram.com/heavyrwanda/">
 									<span class="screen-reader-text"
-										>Google</span
+										>Instagram</span
 									>
-									<svg
-										width="16"
-										height="16"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-											fill="#0270D7"
-										/>
-									</svg>
+									<svg class="instagram-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+	 viewBox="0 0 551.034 551.034" style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve">
+		<path class="logo" id="XMLID_17_" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/>
+	
+		<path id="XMLID_81_" fill="#0270D7" d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z"/>
+	
+		<circle id="XMLID_83_" fill="#0270D7" cx="418.306" cy="134.072" r="34.149"/>
+
+</svg>
 								</a>
 							</li>
 						</ul>
@@ -376,5 +376,9 @@
 		</div>
 
 		<script src="dist/js/main.min.js"></script>
+		<!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="src/js/subscribe.js">
+		</script>
 	</body>
 </html>
